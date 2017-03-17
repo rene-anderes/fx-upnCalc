@@ -35,6 +35,6 @@ public class SystemInfoServiceTest {
         
         // then
         assertThat(version, is(not(nullValue())));
-        assertThat(version, is("1.8.0_101"));
+        assertThat(version.startsWith("1.8.0"), is(true));
     }
 }
