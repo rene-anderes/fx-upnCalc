@@ -1,9 +1,10 @@
 package org.anderes.edu.upncalc;
 
+import static org.apache.commons.lang3.StringUtils.replace;
+
 import java.util.ResourceBundle;
 
 import org.anderes.edu.upncalc.guice.CalcGuiceModule;
-import static org.apache.commons.lang3.StringUtils.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,11 +12,11 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import javafx.fxml.FXMLLoader;
 
 public class CalcStarter extends Application {
 
